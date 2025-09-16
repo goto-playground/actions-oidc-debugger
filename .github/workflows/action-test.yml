@@ -8,6 +8,7 @@ on:
 
 jobs:
   oidc_debug_test:
+    timeout-minutes: 10
     permissions:
       contents: read
       id-token: write
